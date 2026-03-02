@@ -21,12 +21,12 @@ Este proyecto es una aplicación de React desarrollada para el curso de la UTN, 
 3. Iniciar el servidor de desarrollo con `npm run dev`.
 4. Abrir en el navegador la dirección que indique la terminal (ej. `http://localhost:5173`).
 
-## 🌐 Instrucciones para el Deploy
+## Instrucciones para el Deploy
  El proyecto está configurado para un deploy automático en **Vercel**:
 1. Conectar el repositorio de GitHub con una cuenta de Vercel.
 2. El archivo `vercel.json` ya está configurado para manejar el ruteo de React (SPA).
 3. Cada "push" a la rama `main` disparará una nueva versión productiva.
 
-## 📝 Decisiones de Desarrollo
+## Decisiones de Desarrollo
 * Se implementaron **validaciones personalizadas** en el formulario de registro (mínimo de caracteres y formato de email) para asegurar la integridad de los datos según los requisitos.
 * Se utilizó una estructura de carpetas modular para facilitar el mantenimiento del código.
